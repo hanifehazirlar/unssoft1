@@ -15,4 +15,8 @@ public class meinProfileStepDef {
     public void kullaniciAnaSayfayıDoğrular() {
 
     }
+
+    @And("Kullanici {int} sn bekler")
+    public void kullaniciSnBekler(int arg0) {
+    }
 }
